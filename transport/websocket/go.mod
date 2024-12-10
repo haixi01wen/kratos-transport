@@ -1,4 +1,4 @@
-module github.com/tx7do/kratos-transport/transport/websocket
+module github.com/haixi01wen/kratos-transport/transport/websocket
 
 go 1.22.7
 

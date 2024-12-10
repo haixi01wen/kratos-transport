@@ -1,4 +1,4 @@
-module github.com/tx7do/kratos-transport/broker/kafka
+module github.com/haixi01wen/kratos-transport/broker/kafka
 
 go 1.22.7
 
