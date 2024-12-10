@@ -74,8 +74,8 @@ func NewServer(opts ...ServerOption) *Server {
 
 		sessionMgr: NewSessionManager(),
 		upgrader: &ws.Upgrader{
-			ReadBufferSize:  1024,
-			WriteBufferSize: 1024,
+			ReadBufferSize:  1024 * 1024 * 10,
+			WriteBufferSize: 1024 * 1024 * 10,
 			CheckOrigin:     func(r *http.Request) bool { return true },
 		},
 
